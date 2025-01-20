@@ -1,3 +1,77 @@
+
 /* 
     General Styles
 */
+body {
+    font-family: 'Russo One', sans-serif !important;
+  }
+.navbar-principal{
+    height: 50%;
+}
+.navbar-brand img{
+    height: 70px !important;
+}
+.card-body.home .card-title{
+color:aliceblue
+}
+.container-fluid h2{
+    font-size: 50px !important;
+    color: yellow!important;
+}
+.container-black {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.card-custom {
+    background-color: #333; 
+    border: none;  
+   
+    width: 50%; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-custom .row.g-0 {
+    display: flex;
+}
+.card-custom .card-body{
+    background-color: #333; 
+    color: white; 
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.card-custom .card-title {
+    color: yellow; 
+}
+.card-custom .informacion{
+    background-color: #333;
+}
+
+.card-custom .card-body .card-text {
+    color: white; 
+    flex-grow: 1;
+    font-size: large;
+    margin-top: 30px;
+
+}
+.card-custom .card-footer {
+    background-color: #222; 
+    color: white; 
+}
+
+
+.card-custom .card-footer .key {
+    color: yellow; 
+    font-weight: bold;
+}
+
+.card-custom .card-footer .value {
+    color: white; 
+}
